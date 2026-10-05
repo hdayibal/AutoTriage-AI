@@ -1,12 +1,20 @@
-# AutoTriage AI
+# AutoTriage-AI
 
-A backend service and API management system developed during the internship.
+An automated medical triage and patient prioritization system powered by machine learning algorithms to assist healthcare professionals in urgent decision-making.
 
-## Dizin Yapısı
-- `src/`: Controller ve model bileşenleri
-- `config/`: Veritabanı ve ortam yapılandırmaları
+## 📌 Features
+- **Dynamic Patient Queuing:** Rule-based and AI-driven priority classification.
+- **RESTful API Service:** High-performance endpoints for client integration.
+- **Data Validation & Security:** Strict payload validation and role-based access.
 
-## Kullanılan Teknolojiler
-- Node.js & Express
-- MongoDB
-- Git & GitHub
+## 📁 Repository Structure
+- `src/controllers/`: Business logic and request management
+- `src/models/`: Patient schemas and database models
+- `src/routes/`: Express endpoint definitions
+- `config/`: Database configurations and environment settings
+
+## 🛠️ Tech Stack
+- **Runtime:** Node.js, Express.js
+- **Database:** MongoDB, Mongoose
+- **Architecture:** MVC Pattern, RESTful Architecture
+- **Version Control:** Git & GitHub
